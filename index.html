@@ -39,7 +39,7 @@
             var jsonString = JSON.stringify(jsonData);
 
             // Send JSON data to your API
-            fetch('http://localhost:8080/generate-ppt', {
+            fetch('https://ppt-auto-generator-backend.herokuapp.com/generate-ppt', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
